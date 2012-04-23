@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="description" content="jQuery News Ticker is a lightweight, stylish, easy to use and flexible jQuery news ticker" />
+	<title>jQuery Simple News Ticker</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> 
+	<script src="js/json2.js" type="text/javascript"></script>
+	<script src="js/jquery.ticker.js" type="text/javascript"></script>
+    <script type="text/javascript">
+		$(document).ready(function () {
+			// start the ticker 
+			$('#weld-county-news').ticker({
+					backgroundColor: "#F8F0DB",
+					data: [{
+							title: "Simple jQuery News Ticker", 
+							message: "A simple, easy-to-use news ticker that can be embedded into any html object"
+						}],
+					speed: .06
+				});
+		});
+	</script>
+</head>
+<body>
+	<div id="weld-county-news" ></div>
+	
+</body>
+</html>
