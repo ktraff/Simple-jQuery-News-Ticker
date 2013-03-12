@@ -9,4 +9,4 @@ Recommended for jQuery 1.4.x or above only (A very early version with support fo
  	
 Released under GPL v2 - read more here: http://www.gnu.org/licenses/gpl-2.0.html
 	 	
-Copyright 2012 Kyle Traff
+Copyright 2013 Kyle Traff
